@@ -28,11 +28,7 @@ checkboxes.forEach(function(checkbox) {
                 }else{
                     uri += "&catalog_id[]=" + enabledSetting;
                 }
-            
-              console.log("###");
           })
-      
-        console.log(uri);
        window.location.replace(uri); 
     }
   })  
